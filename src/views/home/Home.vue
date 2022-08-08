@@ -1,7 +1,7 @@
 <template>
-  <button @click="increment">
+  <van-button type="primary" @click="increment">
     {{ count }}
-  </button>
+  </van-button>
 </template>
 
 <script setup lang="ts">
